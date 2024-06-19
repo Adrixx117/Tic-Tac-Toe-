@@ -1,0 +1,26 @@
+#tablero {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.celda {
+    width: 100px;
+    height: 100px;
+    border: 0.4rem solid black;
+    text-align: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.celda:hover {
+    background-color: #eee;
+}
+
+.jugador1 {
+    color: blue;
+}
+
+.jugador2 {
+    color: red;
+}
